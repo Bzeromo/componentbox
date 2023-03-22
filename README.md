@@ -97,3 +97,29 @@
     1. 페이지 이동 없이 컨텐츠를 스위칭하기 위해 사용하는 컴포넌트
     2. Breadcrumb나 Avatar와 같이 타입 검증 이후 컴포넌트가 출력된다. (여기서는 리팩터링하였다.)
     3. 탭 안에 이동할 페이지를 넣으면 어느 페이지든 출력된다.
+
+# Hook
+
+# UseToggle
+    - Toggle 컴포넌트의 작동을 위한 훅
+
+# UseHover
+    - 커서를 갖다대면 true, 커서가 벗어나면 false를 반환하는 훅
+
+# useScroll
+    - 특정 엘리먼트의 스크롤 위치를 추적하는 훅
+
+# useRafState
+    - useScroll에서 scroll을 움직일 때마다 리렌더링 되는 것을 막는 성능 최적화 훅
+
+# useKey, useKeyPress
+    - 키보드 이벤트를 담당하는 훅, 주로 단축키를 담당
+
+# useClickAway
+    - 특정영역 외부를 클릭하면 이벤트를 발생시키는 훅
+
+# useResize
+    - target element의 크기가 변했을 때 이벤트를 실행하는 훅
+
+# useLocalStorage, useSessionStorage
+    - 로컬저장소와 세션저장소를 이용할 때 사용하는 훅
