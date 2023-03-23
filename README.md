@@ -123,3 +123,18 @@
 
 # useLocalStorage, useSessionStorage
     - 로컬저장소와 세션저장소를 이용할 때 사용하는 훅
+
+# useForm
+    - 입력창 사용을 위한 훅
+    - formik이라는 더 좋은 라이브러리가 있긴 하다.
+
+# useTimeOutFn, useTimeout
+    - 시간이 지난 후 리디렉션 되는 등의 이벤트를 담당하는 훅
+    - useTimeOutFn은 직접 실행 이벤트 지시가 가능, useTimeOut은 이벤트가 자동 실행
+
+# useIntervalFn, useInterval
+    - 웹 사이트에서 반복되는 작업을 담당하는 훅
+    - useTimeout과 마찬가지로 Fn은 직접 실행 이벤트 지시가 가능, useInterval은 이벤트가 자동 실행
+
+# useDebounce
+    - 특정 기간 내에 같은 이벤트가 호출 됐을 경우 가장 마지막 이벤트만 호출하는 훅

@@ -4,8 +4,8 @@ import { useEffect, useRef } from "react";
 const events = ['mousedown', 'touchstart']
 
 const useClickAway = (handler) => {
-    const ref = useRef(null);
     const savedHandler = useRef(handler);
+    const ref = useRef(null);
 
     // useClickAway 이벤트가 발생할 때마다 렌더링되지 않고 ref 값만 바뀌게 설정한다.
     useEffect(() => {
@@ -29,7 +29,7 @@ const useClickAway = (handler) => {
                 document.removeEventListener(eventName, handleEvent);
             }
         };
-    }), [ref];
+    }, [ref]);
 
     return ref;
 }
