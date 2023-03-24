@@ -45,9 +45,8 @@ export const Default = () => {
         <>
             <h1>useHotKey 테스트</h1>
             <h2>1. meta</h2>
-            <h2>2. esc</h2>
             <h2>2. alt + w</h2>
-            <h2>4. ctrl + shift + k</h2>
+            <h2>3. ctrl + shift + k</h2>
 
             <h1>로컬 테스트</h1>
             <h2>esc를 눌러 입력창 지우기</h2>
