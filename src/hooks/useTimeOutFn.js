@@ -21,6 +21,8 @@ const useTimeOutFn = (fn, ms) => {
         timeoutId.current && clearTimeout(timeoutId.current);
     }, [])
 
+    useEffect(() => clear, [clear]); // timeout이 남지 않도록 한다.
+
     return [run, clear];
 };
 

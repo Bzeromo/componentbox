@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import useDebounce from "../../hooks/useDebounce";
+import { useDebounce } from "../../hooks";
 
 export default {
     title: 'Hook/useDebounce',

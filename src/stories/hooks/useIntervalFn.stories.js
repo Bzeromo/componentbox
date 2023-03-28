@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useIntervalFn from "../../hooks/useIntervalFn";
+import { useIntervalFn } from "../../hooks";
 
 
 export default {

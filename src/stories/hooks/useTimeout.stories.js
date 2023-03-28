@@ -1,4 +1,4 @@
-import useTimeout from "../../hooks/useTimeout";
+import { useTimeout } from "../../hooks";
 
 export default {
     title: 'Hook/useTimeout',

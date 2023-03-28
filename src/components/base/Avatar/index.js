@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { useEffect, useState } from "react";
-import ImageComponent from "../Image";
+import  ImageComponent  from "../Image";
 import AvatarGroup from "./AvatarGroup";
 
 const ShapeToCssValue = {
@@ -43,7 +43,7 @@ const Avatar = ({
     }, [src]);
     return (
         <AvatarWrapper {...props} shape={shape}>
-            <ImageComponent 
+            <ImageComponent
             block
             lazy={lazy}
             threshold={threshold}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useHotKey from "../../hooks/useHotKey";
+import { useHotKey } from "../../hooks";
 
 
 export default {

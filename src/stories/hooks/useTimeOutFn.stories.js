@@ -1,4 +1,4 @@
-import useTimeOutFn from "../../hooks/useTimeOutFn";
+import { useTimeOutFn } from "../../hooks";
 
 
 export default {

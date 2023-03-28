@@ -1,4 +1,4 @@
-import useKey from "../../hooks/useKey";
+import { useKey } from "../../hooks";
 
 
 export default {

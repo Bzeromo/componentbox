@@ -1,12 +1,12 @@
 import { useCallback, useRef, useState } from "react";
 
 const useAsyncFn = (fn, deps) => {
-    const lastCallId = useRef(0)
+    const lastCallId = useRef(0) // 제일 마지막에 기록한 콜백
     const [state, setState] = useState({ isLoading: false });
 
     const callback = useCallback((...args) => {
         const callId = ++lastCallId.current;
-        
+
         if(!state.isLoading) {
             setState({...state, isLoading: true});
         }
