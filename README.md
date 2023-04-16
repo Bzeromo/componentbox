@@ -144,7 +144,7 @@
 
 ## useTimeOutFn, useTimeout
     - 시간이 지난 후 리디렉션 되는 등의 이벤트를 담당하는 훅
-    - useTimeOutFn은 직접 실행 이벤트 지시가 가능, useTimeOut은 이벤트가 자동 실행
+    - useTimeOutFn은 직접 실행 이벤트 지시가 가능, useTimeOut은 이벤트가 자동 실행.
 
 ## useIntervalFn, useInterval
     - 웹 사이트에서 반복되는 작업을 담당하는 훅
